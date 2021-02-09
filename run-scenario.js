@@ -1,9 +1,5 @@
 // This is a simple script using the 0 AD RL interface using NodeJS.
 // Steps:
-//   - Install NodeJS: https://nodejs.org/en/download/
-//   - Copy/download this file to it's own directory
-//   - Run "npm init" in the directory (default values are fine)
-//   - Run "npm install node-fetch"
 //   - Start 0 AD with the RL interface listening on port 6000
 //   - Run this script with NodeJS
 
