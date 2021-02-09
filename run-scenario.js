@@ -8,9 +8,11 @@ runTests('http://127.0.0.1:6000');
 
 async function runTests(address) {
     await resetScenario(address);
-    while (true) {
+    let i = 0;
+    while (i < 500) {
         await stepScenario(address);
         console.log('step!');
+        ++i;
     }
 }
 
